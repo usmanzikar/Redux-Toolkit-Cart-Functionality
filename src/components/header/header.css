@@ -1,0 +1,37 @@
+.Header{
+ /* box-shadow: 0 10px 6px -6px #777; */
+ background-color: black;
+ padding: 14px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.logo a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Fragment Mono', monospace;
+
+}
+.nav-links a{
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Fragment Mono', monospace;
+    margin: 0 1rem;
+}
+.nav-links a p{
+    position: absolute;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font: 900 0.7rem "Roboto";
+    display: grid;
+    place-items: center;
+    transform: translate(2045%,-186%);
+}
